@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Tamii's not too much Tabs!",
+    "version": "1.0",
+    "author": "github.com/Tamino1230",
+    "permissions": ["tabs", "notifications", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Tamii"
+    },
+    "icons": {
+        "32": "icon/icon32.png"
+    },
+    "description": "Restrict opening new tabs beyond a limit of 8."
+}
