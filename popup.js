@@ -76,6 +76,6 @@ function addNyanCat() {
 }
 
 
-if (Math.random() < 0.2) {
+if (Math.random() < 0.3) {
     addNyanCat();
 }
