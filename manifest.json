@@ -12,7 +12,9 @@
         "default_title": "Tamii"
     },
     "icons": {
-        "32": "icon/icon32.png"
+        "32": "icon/icon32.png",
+        "64": "icon/icon64.png",
+        "128": "icon/icon128.png"
     },
     "description": "Restrict opening new tabs beyond a limit of 8."
 }
